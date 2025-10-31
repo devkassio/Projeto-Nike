@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-vscode.live-server",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "ritwickdey.liveserver",
+    "formulahendry.auto-rename-tag",
+    "christian-kohler.path-intellisense"
+  ]
+}

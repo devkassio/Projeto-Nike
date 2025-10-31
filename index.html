@@ -1,56 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!--FALTA ALTERAR ALGUNS ELEMENTOS O PROJETO NO ZOOM 100% ESTÁ BUGADO, SÓ FICA BOM NO 75%-->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nike Air Zoom - Tênis esportivo de alta performance com elasticidade ideal para cada passada"
+    />
+    <meta
+      name="keywords"
+      content="Nike, tênis, Air Zoom, calçados esportivos, performance"
+    />
+    <meta name="author" content="Nike Store" />
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="./style.css" as="style" />
+    <link rel="preload" href="./assets/nike-green.png" as="image" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-        <link rel="website icon" type="png" href="/assets/icon-website.png">
-    <title>Nike</title>
-</head>
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link rel="icon" type="image/png" href="./assets/icon-website.png" />
+    <title>Nike Air Zoom - Tênis de Performance</title>
+  </head>
 
-<body>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="./assets/logo-nike.png"
+        alt="Logo da Nike"
+        role="img"
+      />
+    </header>
 
-    <img class="logo" src="/assets/logo-nike.png">
-
-    <div class="caixa-principal">
-        <div class="caixa-texto">
-            <h4>
-                R$ 799,90
-            </h4>
-
-            <h1>
-                Nike Air Zoom
-            </h1>
-
-            <p>
-                A elasticidade ideal para impulsionar cada passada, proporcionando uma sensação perfeita e desempenho superior.
-            </p>
-
-            <a class="botao-carrinho">
-                Adicionar ao carrinho
-            </a>
+    <main class="caixa-principal">
+      <section class="caixa-texto" aria-labelledby="produto-titulo">
+        <div class="preco" aria-label="Preço do produto">
+          <span class="cifrao">R$</span>
+          <span class="valor">799,90</span>
         </div>
 
-        <div class="caixa-imagem">
-            <img class="nike-verde" src="/assets/nike-green.png">
-        </div>
-    </div>
+        <h1 id="produto-titulo">Nike Air Zoom</h1>
 
+        <p class="descricao">
+          A elasticidade ideal para impulsionar cada passada, proporcionando uma
+          sensação perfeita e desempenho superior.
+        </p>
 
-    <div class="caixa-botoes">
-        <div onclick="mudarVisual('#ccee66', '/assets/nike-green.png')" class="botoes verde"></div>
-        <div onclick="mudarVisual('#ff9eb5', '/assets/nike-pink.png')" class="botoes rosa"></div>
-        <div onclick="mudarVisual('#58cced', '/assets/nike-blue.png')" class="botoes azul"></div>
+        <button
+          class="botao-carrinho"
+          type="button"
+          aria-label="Adicionar Nike Air Zoom ao carrinho de compras"
+        >
+          <span>Adicionar ao carrinho</span>
+        </button>
+      </section>
 
+      <section class="caixa-imagem" aria-label="Imagem do produto">
+        <img
+          class="nike-verde"
+          src="./assets/nike-green.png"
+          alt="Tênis Nike Air Zoom na cor verde"
+          loading="lazy"
+        />
+      </section>
+    </main>
 
-    </div>
+    <aside
+      class="caixa-botoes"
+      role="group"
+      aria-label="Seletor de cores do produto"
+    >
+      <button
+        onclick="mudarVisual('#9cb15c', './assets/nike-green.png', 'verde')"
+        class="botoes verde"
+        type="button"
+        aria-label="Selecionar cor verde"
+        data-cor="verde"
+      ></button>
+      <button
+        onclick="mudarVisual('#ff9eb5', './assets/nike-pink.png', 'rosa')"
+        class="botoes rosa"
+        type="button"
+        aria-label="Selecionar cor rosa"
+        data-cor="rosa"
+      ></button>
+      <button
+        onclick="mudarVisual('#58cced', './assets/nike-blue.png', 'azul')"
+        class="botoes azul"
+        type="button"
+        aria-label="Selecionar cor azul"
+        data-cor="azul"
+      ></button>
+    </aside>
 
-</body>
-<script src="/scripts.js"></script>
+    <script src="./scripts.js"></script>
+  </body>
 </html>
