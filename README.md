@@ -1,4 +1,3 @@
-
 # 🚀 Nike Air Zoom - Landing Page
 
 Landing page moderna, responsiva e acessível para o tênis Nike Air Zoom, desenvolvida com HTML5, CSS3 e JavaScript ES6+.
@@ -70,7 +69,6 @@ Landing page moderna, responsiva e acessível para o tênis Nike Air Zoom, desen
    - Navegador: `http://localhost:8000`
    - Ou abra diretamente o arquivo `index.html`
 
-
 ## 📁 Estrutura do Projeto
 
 ```
@@ -91,13 +89,11 @@ Projeto-Nike/
 
 ## 🎯 Funcionalidades Detalhadas
 
-
 ### Seletor de Cores
 
 - **Verde** (#9cb15c, #8ba04d) - Cor padrão (agora padronizada em todo o projeto)
 - **Rosa** (#ff9eb5) - Variação feminina
 - **Azul** (#58cced) - Variação esportiva
-
 
 ### Animações e Interatividade
 
@@ -105,7 +101,6 @@ Projeto-Nike/
 - Efeito de hover nos botões com transformação 3D
 - Animação de entrada progressiva dos elementos
 - **Botão "Adicionar ao carrinho" com efeito glassmorphism (vidro fosco, estilo Apple)**
-
 
 ### Acessibilidade
 
@@ -115,7 +110,6 @@ Projeto-Nike/
 - Redução de movimento para usuários sensíveis
 - Anúncios para leitores de tela
 - Foco visível em todos os elementos interativos
-
 
 ## 🔄 Melhorias Recentes
 
@@ -127,7 +121,6 @@ Projeto-Nike/
 - **Performance**: preload de recursos, cache DOM, fontes otimizadas
 - **SEO**: meta tags, alt text, estrutura semântica
 - **Código limpo**: ES6+, funções puras, tratamento de erros, variáveis CSS
-
 
 ## 🐛 Correções Realizadas
 
@@ -162,16 +155,10 @@ Projeto-Nike/
 4. Push para a branch (`git push origin feature/nova-funcionalidade`)
 5. Abra um Pull Request
 
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
-
 ## 👨‍💻 Autor
 
-Desenvolvido com ❤️ por [Seu Nome]
+[Kássio Barros](https://github.com/devkassio)\*\*
 
 ---
-
 
 **🏃‍♂️ "Just Do It" - Nike**
