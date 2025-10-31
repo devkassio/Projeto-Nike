@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🚀 Nike Air Zoom - Landing Page
 
 Landing page moderna, responsiva e acessível para o tênis Nike Air Zoom, desenvolvida com HTML5, CSS3 e JavaScript ES6+.
@@ -163,6 +163,7 @@ Projeto-Nike/
 ---
 
 **🏃‍♂️ "Just Do It" - Nike**
+
 =======
 # 👟 Projeto Nike - Página de Produto
 
@@ -186,4 +187,4 @@ A proposta é apresentar um produto de forma moderna e com interatividade na tro
 - HTML5
 - CSS3
 - JavaScript
->>>>>>> f40ab44da762e13ea7a78fc2529a714b4a1fb13f
+
